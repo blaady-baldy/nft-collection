@@ -257,7 +257,8 @@ export default function Home() {
         disableInjectedProvider: false,
       });
       connectWallet();
-
+    }
+    else{
       // Check if presale has started and ended
       const _presaleStarted = checkIfPresaleStarted();
       if (_presaleStarted) {
